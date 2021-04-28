@@ -13,27 +13,28 @@
 <body>
 
     <div class="container">
-        <form action="login.php" style="border:1px solid #ccc" method="post">
+        <form action="login.php" style="border:1px solid #ccc" method="POST">
 
             <div class="container">
                 <h1>Login</h1>
                 <p>Please fill the Login form to Access Page.</p>
                 <hr>
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" id="email" name="email" required>
+                <label for="fname"><b>Enter Username(i.e first name)</b></label>
+                <input type="text" placeholder="Enter Username" id="fname" name="fname" required>
 
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
+                <label for="pass"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="pass" name="psw" required>
 
                 <label>
                     <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
                 </label>
 
                 <div class="clearfix">
-                    <button type="submit" class="signupbtn btn btn-success">Sign Up</button>
+                    <input type="submit" role="button" class="signupbtn btn btn-success" name="submit" value="Sign in">
+                    <!-- <button type="submit" class="signupbtn btn btn-success">Login</button> -->
                 </div>
-
             </div>
+
         </form>
     </div>
 

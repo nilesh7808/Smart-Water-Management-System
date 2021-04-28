@@ -11,7 +11,7 @@ $_SESSION = array();
 // Redirect to main page
 if(session_destroy()){
     
-    header("location: index.html");
+    header("location: index.php");
 
 }
 

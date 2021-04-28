@@ -8,6 +8,11 @@ nav {
     font-size: 1.5rem;
 }
 
+#logged_user {
+    position: relative;
+    margin-right: 15px;
+}
+
 #carouselExampleControls {
     height: 90vh;
     width: 100vw;

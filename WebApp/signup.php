@@ -1,6 +1,6 @@
 <?php
 
- /*   $servername = "localhost";
+   $servername = "localhost";
     $username = "root";
     $password = "";
 	$db_name = "arduino";
@@ -11,8 +11,8 @@
 
         die("Connection didnot established ". mysqli_connect_error());
         
-    }*/
-	include("connect.php");
+    }
+	// include("connect.php");
 
     //echo "Connected Successfully"; 
 

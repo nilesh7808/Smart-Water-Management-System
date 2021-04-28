@@ -1,0 +1,65 @@
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    text-decoration: none;
+    text-align: center;
+    color: #3a0ca3;
+}
+
+h3 {
+    color: #006d77;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 35%;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+
+svg {
+    height: 25px;
+    width: 25px;
+    padding: 10px auto;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 15px;
+    margin-left: 7.5%;
+}
+
+fieldset {
+    color: #008000;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+marquee {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#bill {
+    text-align: center;
+    margin-left: 45%;
+}
+
+div {
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    border: 1px solid black;
+}
